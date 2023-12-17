@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #176D63;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.header-logo img {
+    width: 85px;
+    height: 80px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 20px;
+    font-size: large;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para pantallas más pequeñas (responsive) */
+@media (max-width: 768px) {
+    .header-logo {
+        text-align: center;
+        flex: 1;
+    }
+
+    .header-logo img {
+        width: 100px;
+        /* Ajusta el tamaño de la imagen */
+        height: 90px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li {
+        margin: 10px 0;
+        font-size: medium;
+        /* Ajusta el tamaño del texto */
+    }
+}
+
+
+
+
+
+
+
+/* Estilos base */
+.login-container {
+    font-family: Arial, sans-serif;
+    /* Selecciona una fuente de texto */
+    background-color: #ffffff;
+    /* Establece el fondo en blanco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Cambiado de height a min-height */
+    /* Hace que el contenedor ocupe toda la altura visible de la pantalla */
+    margin: 0;
+    /* Elimina el margen alrededor del contenedor */
+}
+
+.login-box {
+    width: 100%;
+    /* El formulario ocupa todo el ancho de la pantalla en pantallas pequeñas */
+    max-width: 450px;
+    /* Establece un ancho máximo para el formulario */
+    padding: 20px;
+    /* Agrega un espacio interior alrededor del formulario */
+    background-color: white;
+    /* Establece un fondo blanco para el formulario */
+    border: 1px solid #000;
+    /* Agrega un borde de 1 píxel de color negro alrededor del formulario */
+    border-radius: 5px;
+    /* Redondea los bordes del formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Agrega una sombra ligera alrededor del formulario */
+}
+
+.login-logo {
+    text-align: center;
+    /* Centra el contenido de texto en el formulario */
+}
+
+.login-logo img {
+    width: 270px;
+    /* Establece el ancho de la imagen del logo */
+    height: 270px;
+    /* Establece la altura de la imagen del logo */
+}
+
+/* Media query para pantallas medianas (entre 481px y 800px) */
+@media (max-width: 768px) {
+    .login-box {
+        padding: 15px;
+        /* Reduce el espacio de relleno en pantallas medianas */
+    }
+
+    .login-logo img {
+        width: 240px;
+        /* Reduzco el tamaño del logo en pantallas más pequeñas */
+        height: 240px;
+    }
+}
+
+/* Media query para pantallas más pequeñas (hasta 480px) */
+@media (max-width: 480px) {
+    .login-box {
+        padding: 10px;
+        /* Reduce el espacio de relleno en pantallas más pequeñas */
+    }
+
+    .login-logo img {
+        width: 200px;
+        /* Reduzco el tamaño del logo en pantallas más pequeñas */
+        height: 200px;
+    }
+}
+
+
+
+
+
+.block-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block {
+    flex-basis: calc(25% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.block img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* .login-form-group {
+    margin: 10px 0; /* Agrega un margen superior e inferior a los elementos del formulario 
+    text-align: center; /* Centra los elementos del formulario 
+
+.login-label {
+    display: block; /* Muestra las etiquetas de entrada en un nuevo renglón 
+    font-weight: bold; /* Hace que las etiquetas de entrada tengan texto en negrita 
+    font-size: 20px; /* Establece un tamaño de fuente de 20 píxeles para las etiquetas de entrada 
+} 
+
+.login-input {
+    width: 70%; /* Los campos de entrada ocupan el 70% del ancho del contenedor 
+    padding: 10px; /* Agrega relleno interior a los campos de entrada 
+    margin: 5px 0; /* Agrega un margen superior e inferior a los campos de entrada 
+    border: 1px solid #ccc; /* Agrega un borde de 1 píxel de color gris a los campos de entrada 
+    border-radius: 5px; /* Redondea los bordes de los campos de entrada 
+    font-size: 16px; /* Establece un tamaño de fuente de 16 píxeles para los campos de entrada 
+}
+
+.login-button {
+    width: 50%; /* El botón ocupa el 50% del ancho del contenedor 
+    padding: 10px; /* Agrega relleno al botón 
+    background-color: #007BFF; /* Establece un fondo azul para el botón 
+    color: white; /* Establece el color del texto en blanco 
+    border: none; /* Elimina el borde del botón 
+    border-radius: 5px; /* Redondea los bordes del botón 
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón 
+    font-size: 16px; /* Establece un tamaño de fuente de 16 píxeles para el botón 
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor sobre el botón 
+} */
